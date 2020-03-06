@@ -1,0 +1,3 @@
+rootProject.name = 'java-system-study'
+include 'design-pattern'
+
