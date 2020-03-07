@@ -27,16 +27,16 @@ class Singleton {
         System.out.println("Singleton 创建");
     }
 
-    private final static Singleton instance;
+    private final static Singleton INSTANCE;
 
     static {
         System.out.println("Singleton 实例 化");
-        instance = new Singleton();
+        INSTANCE = new Singleton();
     }
 
     public static Singleton getInstance() {
         System.out.println("Singleton 获取");
-        return Singleton.instance;
+        return Singleton.INSTANCE;
     }
 
 }
