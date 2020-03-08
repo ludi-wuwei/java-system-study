@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ludi.study.designpattern.adapter.classadapter.Phone</OriginalElement>
+  <nodes>
+    <node x="249.75" y="0.0">com.ludi.study.designpattern.adapter.classadapter.Voltage220V</node>
+    <node x="0.0" y="104.0">com.ludi.study.designpattern.adapter.classadapter.Phone</node>
+    <node x="65.25" y="0.0">com.ludi.study.designpattern.adapter.classadapter.Voltage5V</node>
+    <node x="215.0" y="104.0">com.ludi.study.designpattern.adapter.classadapter.VoltageAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ludi.study.designpattern.adapter.classadapter.Phone" target="com.ludi.study.designpattern.adapter.classadapter.Voltage5V">
+      <point x="0.0" y="-27.0" />
+      <point x="-32.25" y="27.0" />
+    </edge>
+    <edge source="com.ludi.study.designpattern.adapter.classadapter.VoltageAdapter" target="com.ludi.study.designpattern.adapter.classadapter.Voltage220V">
+      <point x="0.0" y="-27.0" />
+      <point x="-35.75" y="27.0" />
+    </edge>
+    <edge source="com.ludi.study.designpattern.adapter.classadapter.VoltageAdapter" target="com.ludi.study.designpattern.adapter.classadapter.Voltage5V">
+      <point x="-47.0" y="-27.0" />
+      <point x="238.5" y="79.0" />
+      <point x="162.0" y="79.0" />
+      <point x="32.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="196.5" y="79.0" />
+  <SelectedNodes>
+    <node>com.ludi.study.designpattern.adapter.classadapter.Phone</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
