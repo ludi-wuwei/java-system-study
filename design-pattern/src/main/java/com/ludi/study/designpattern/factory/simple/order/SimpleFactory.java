@@ -1,9 +1,9 @@
-package com.ludi.study.designpattern.factory.order;
+package com.ludi.study.designpattern.factory.simple.order;
 
-import com.ludi.study.designpattern.factory.pizza.AbstractPizza;
-import com.ludi.study.designpattern.factory.pizza.CheesePizza;
-import com.ludi.study.designpattern.factory.pizza.GreekPizza;
-import com.ludi.study.designpattern.factory.pizza.PepperPizza;
+import com.ludi.study.designpattern.factory.simple.pizza.AbstractPizza;
+import com.ludi.study.designpattern.factory.simple.pizza.CheesePizza;
+import com.ludi.study.designpattern.factory.simple.pizza.GreekPizza;
+import com.ludi.study.designpattern.factory.simple.pizza.PepperPizza;
 
 /**
  * @author 陆迪

@@ -1,4 +1,4 @@
-package com.ludi.study.designpattern.factory.order;
+package com.ludi.study.designpattern.factory.simple.order;
 
 /**
  * @author 陆迪

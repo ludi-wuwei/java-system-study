@@ -1,6 +1,4 @@
-package com.ludi.study.designpattern.factory.pizza;
-
-import jdk.nashorn.internal.parser.JSONParser;
+package com.ludi.study.designpattern.factory.simple.pizza;
 
 /**
  * @author 陆迪

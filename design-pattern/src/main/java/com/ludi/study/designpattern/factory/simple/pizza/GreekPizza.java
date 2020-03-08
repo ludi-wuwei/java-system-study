@@ -1,4 +1,4 @@
-package com.ludi.study.designpattern.factory.pizza;
+package com.ludi.study.designpattern.factory.simple.pizza;
 
 /**
  * @author 陆迪

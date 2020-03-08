@@ -1,6 +1,6 @@
-package com.ludi.study.designpattern.factory.order;
+package com.ludi.study.designpattern.factory.method.order;
 
-import com.ludi.study.designpattern.factory.pizza.AbstractPizza;
+import com.ludi.study.designpattern.factory.method.pizza.AbstractPizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,16 +8,23 @@ import java.io.InputStreamReader;
 
 /**
  * @author 陆迪
- * @date 2020/3/8 0:01
+ * @date 2020/3/8 12:48
  */
-public class OrderPizza2 {
+public class OrderPizza {
 
-    AbstractPizza pizza;
-    String orderType;
-    public OrderPizza2() {
+    AbstractFactory abstractFactory;
+
+    public OrderPizza(AbstractFactory abstractFactory) {
+        this.abstractFactory = abstractFactory;
+        setFactory(abstractFactory);
+
+    }
+    public void setFactory(AbstractFactory factory) {
+        AbstractPizza pizza;
+        String orderType;
         do {
             orderType = getOrderType();
-            pizza = SimpleFactory.createPizza2(orderType);
+            pizza = factory.createPizza(orderType);
 
             if (pizza != null) {
                 pizza.prepare();
@@ -25,11 +32,13 @@ public class OrderPizza2 {
                 pizza.cut();
                 pizza.box();
             } else {
-                System.out.print("不存在的pizza类型！");
+                System.out.println("订购失败");
                 break;
             }
-        } while (true);
+        }while (true);
+
     }
+
     private String getOrderType() {
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -40,4 +49,5 @@ public class OrderPizza2 {
             return "";
         }
     }
+
 }

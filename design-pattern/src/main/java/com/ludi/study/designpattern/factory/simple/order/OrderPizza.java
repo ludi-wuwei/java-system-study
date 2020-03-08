@@ -1,6 +1,6 @@
-package com.ludi.study.designpattern.factory.order;
+package com.ludi.study.designpattern.factory.simple.order;
 
-import com.ludi.study.designpattern.factory.pizza.AbstractPizza;
+import com.ludi.study.designpattern.factory.simple.pizza.AbstractPizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
