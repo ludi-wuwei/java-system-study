@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ludi.study.designpattern.adapter.objectadpter.Phone</OriginalElement>
+  <nodes>
+    <node x="48.5" y="0.0">com.ludi.study.designpattern.adapter.objectadpter.Voltage5V</node>
+    <node x="240.0" y="289.0">com.ludi.study.designpattern.adapter.objectadpter.Voltage220V</node>
+    <node x="0.0" y="104.0">com.ludi.study.designpattern.adapter.objectadpter.VoltageAdapter</node>
+    <node x="0.0" y="289.0">com.ludi.study.designpattern.adapter.objectadpter.Phone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ludi.study.designpattern.adapter.objectadpter.VoltageAdapter" target="com.ludi.study.designpattern.adapter.objectadpter.Voltage5V">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.5" y="140.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
