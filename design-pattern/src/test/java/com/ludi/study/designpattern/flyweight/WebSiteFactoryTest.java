@@ -19,5 +19,7 @@ public class WebSiteFactoryTest {
 
     @Test
     public void getWebSiteCount() {
+
+        Integer.valueOf(1);
     }
 }

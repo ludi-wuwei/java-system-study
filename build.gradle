@@ -1,3 +1,11 @@
+buildscript {
+    repositories {
+        maven {url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        maven {url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+    }
+}
+
 plugins {
     id 'java'
 }
@@ -6,9 +14,13 @@ group 'com.ludi.sutdy'
 version '1.0-SNAPSHOT'
 
 
-
-repositories {
-    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
-    mavenCentral()
+allprojects {
+    repositories {
+        maven {url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        maven {url 'https://maven.aliyun.com/repository/google' }
+        maven {url 'https://maven.aliyun.com/repository/central' }
+        maven{ url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        maven { url 'https://jitpack.io'}
+        maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+    }
 }
-

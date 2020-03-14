@@ -13,5 +13,11 @@ repositories {
 
 dependencies {
     implementation 'org.springframework:spring-context:5.2.4.RELEASE'
+
+    implementation 'cglib:cglib:3.3.0'
+    implementation 'org.ow2.asm:asm:6.0'
+    implementation 'org.ow2.asm:asm-commons:6.0'
+    implementation 'org.ow2.asm:asm-tree:6.0'
+
     testCompile 'junit:junit:4.12'
 }
